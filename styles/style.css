@@ -1,0 +1,289 @@
+/*Se importan los partials*/
+header {
+  padding: 0;
+  margin: 0;
+  height: 190px;
+  margin-bottom: 2em;
+  background-color: #3e4060;
+}
+
+header h1,
+header h2 {
+  padding: 2px;
+  margin: 0;
+  font-size: 38px;
+}
+
+header h1 {
+  letter-spacing: 5px;
+}
+
+header h2 {
+  font-size: 27px;
+  color: #c4c2c2;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+header .informationHeader {
+  width: 600px;
+  height: 140px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 280px;
+  top: 15%;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  text-align: center;
+  background-color: white;
+}
+
+header .informationHeader div {
+  border: 2px solid black;
+  padding: 12px;
+  top: 30%;
+  -webkit-transform: translateY(5%);
+          transform: translateY(5%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  border: 1px dashed #3e4060;
+  border-top: 0px;
+  width: 1100px;
+  height: auto;
+  margin: 2rem auto;
+  background-color: #fffbfb;
+}
+
+h2,
+h3 {
+  padding: 6px;
+}
+
+p,
+li {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.articleContainerProfessional {
+  width: auto;
+  height: 300px;
+  margin-top: 4px;
+}
+
+.articleContainerProfessional h2 {
+  border: 1px solid black;
+  width: 250px;
+  text-align: center;
+}
+
+.articleContainerProfessional li,
+.articleContainerProfessional p {
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+}
+
+.informationProfile {
+  width: auto;
+  height: 220px;
+  margin-top: 4%;
+}
+
+.informationProfile .profile {
+  width: 370px;
+  height: 40px;
+  text-align: justify;
+  line-height: 30px;
+  position: relative;
+  top: -12%;
+  left: 25px;
+}
+
+.informationProfile #foto {
+  position: relative;
+  top: -33%;
+  left: 40%;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.informationProfile .contactInformation {
+  position: absolute;
+  top: 32%;
+  left: 66%;
+  width: 200px;
+}
+
+.informationProfile .contactInformation img {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 105%;
+  top: 50%;
+  -webkit-transform: translateY(-90%);
+          transform: translateY(-90%);
+}
+
+.education {
+  position: absolute;
+  left: 17%;
+  top: 70.5%;
+}
+
+.education h2 {
+  position: relative;
+  left: 10%;
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+  background-color: #fffbfb;
+}
+
+.education ul {
+  position: relative;
+  left: -7%;
+}
+
+.education ul li p {
+  padding: 0;
+  margin: 0;
+}
+
+.skills {
+  position: absolute;
+  width: 190px;
+  left: 47%;
+  top: 70%;
+}
+
+.skills h2 {
+  background-color: #c4c2c2;
+  position: relative;
+  left: 30%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.skills ul {
+  position: relative;
+  left: -17%;
+}
+
+.skills ul li {
+  line-height: 40px;
+}
+
+.expertise {
+  background-color: #fffbfb;
+  position: absolute;
+  width: 290px;
+  left: 67%;
+  top: 70%;
+}
+
+.expertise ul {
+  position: relative;
+  left: -8%;
+}
+
+.expertise li {
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.line {
+  width: 950px;
+  height: 5px;
+  position: absolute;
+  background-color: black;
+  top: 73%;
+  left: 20%;
+}
+
+.line2 {
+  width: 1015px;
+  height: 5px;
+  position: absolute;
+  background-color: black;
+  top: 112.5%;
+  left: 16%;
+}
+
+.experience {
+  margin-top: 40px;
+}
+
+.experience li {
+  position: relative;
+  left: 2%;
+}
+
+.experience .experience1 {
+  height: 200px;
+  position: relative;
+  left: 25px;
+}
+
+.experience .experience2 {
+  height: 200px;
+  position: relative;
+  left: 25px;
+}
+
+.experience .experience3 {
+  height: 200px;
+  position: relative;
+  left: 25px;
+}
+
+.experience h2 {
+  background-color: #c4c2c2;
+  width: 250px;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+  margin-bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-45%);
+          transform: translateX(-45%);
+}
+
+.experience h3 {
+  font-size: 26px;
+  letter-spacing: 5px;
+}
+
+.experience .informationCompany {
+  position: relative;
+  left: 75%;
+  top: 60%;
+  border-radius: 20% 0 20% 0;
+  -webkit-transform: translateY(-190%);
+          transform: translateY(-190%);
+  width: 167px;
+  height: 140px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #3e4060;
+  color: white;
+}
+
+footer {
+  position: relative;
+  background-color: #3e4060;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

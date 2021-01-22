@@ -1,0 +1,41 @@
+header {
+  padding: 0;
+  margin: 0;
+  height: 190px;
+  margin-bottom: 2em;
+  background-color: $primary-color;
+  h1,
+  h2 {
+    padding: 2px;
+    margin: 0;
+
+    font-size: 38px;
+  }
+  h1 {
+    letter-spacing: 5px;
+  }
+  h2 {
+    font-size: 27px;
+    color: $secondary-color;
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+  .informationHeader {
+    width: 600px;
+    height: 140px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 280px;
+    top: 15%;
+    transform: translateY(20%);
+    text-align: center;
+    background-color: $secondary-color-header;
+    div {
+      border: 2px solid black;
+      padding: 12px;
+      top: 30%;
+      transform: translateY(5%);
+    }
+  }
+}
